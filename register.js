@@ -10,6 +10,12 @@ Reaction.registerPackage({
 	,label: 'DF Stripe'
 	,registry: [
 		{
+			container: 'dashboard'
+			,provides: ['paymentSettings']
+			,template: 'stripeSettings'
+			,label: 'Stripe'
+		}
+		,{
 			icon: 'fa fa-cc-stripe' // 2018-01-21 http://fontawesome.io/icon/cc-stripe
 			// 2018-01-21 "What is `provides` / `paymentMethod` for a package?" https://rc.plus/t/36
 			,provides: ['paymentMethod']

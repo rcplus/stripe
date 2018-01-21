@@ -4,7 +4,11 @@
 	"ns": "df-stripe",
 	"translation": {
 		"reaction-payments": {
-
+			"admin": {
+				"paymentSettings": {
+					"stripeLabel": "Stripe"
+				}
+			}
 		}
 	}
 }]
