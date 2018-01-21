@@ -2,7 +2,7 @@ This plugin integrates a Reaction Commerce based webstore with the **[Stripe](ht
 
 ## How to install
 ```
-git clone https://github.com/rcplus/stripe.git imports/plugins/custom/df/stripe
+git clone https://github.com/rcplus/stripe.git imports/plugins/custom/df-stripe
 ```
 
 ## Licensing
