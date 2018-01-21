@@ -1,0 +1,4 @@
+// 2018-01-22
+import {loadTranslations} from '/server/startup/i18n';
+import en from './en.json';
+loadTranslations([en]);
